@@ -1,0 +1,34 @@
+# 📦 Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# 🧪 окружение / переменные
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# 💽 базы данных и логи
+data/
+*.sqlite
+*.log
+*.pid
+dump.rdb
+mongod.lock
+
+# 🔄 кэш и артефакты
+.cache/
+dist/
+build/
+coverage/
+tmp/
+temp/
+.vscode/
+.idea/
+
+# 🧾 OS-системный мусор
+.DS_Store
+Thumbs.db
